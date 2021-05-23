@@ -24,3 +24,7 @@ Git clone url : clone the existing project to local(importment)
 key generate:
 ssh-keygen -t rsa -C "xxx@qq.com"  //should use gvim to open
 
+check git push history:
+git log --author=Allen --online -5 //if need date: --since --before --until -- after
+git blame <file> //check a file history
+
