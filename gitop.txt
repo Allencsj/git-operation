@@ -21,3 +21,6 @@ Git remote rm name : delete reporitory in github
 Git remote rename old_name new_name
 Git clone url : clone the existing project to local(importment)
 
+key generate:
+ssh-keygen -t rsa -C "xxx@qq.com"  //should use gvim to open
+
