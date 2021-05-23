@@ -1,0 +1,23 @@
+Git operation list
+
+To a new reporitory
+git init
+Git add README.md
+Git commit -m “first release”
+Git branch -M main            //main is branch that we want
+Git remote add origin “utl”   //utl is reporitory in github
+Git push -u origin main       //push file in main to origin 
+
+To a existing reporitory
+Git remote add origin “utl”
+Git branch -M main
+Git push -u origin main
+
+General commands:
+Git remote: check reporitory linked to github
+Git remote -v : more info of reporitories
+Git remote rm origin      //origin is link name
+Git remote rm name : delete reporitory in github
+Git remote rename old_name new_name
+Git clone url : clone the existing project to local(importment)
+
