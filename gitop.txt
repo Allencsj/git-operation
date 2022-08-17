@@ -13,6 +13,17 @@ Git remote add origin “utl”
 Git branch -M main
 Git push -u origin main
 
+To a existing reporitory and if you want to add or delete something
+add:
+git status   //check status now
+git add -u | git add .   //add your change to stage
+git commit -m "xxx"      //commit your change
+git push origin -u main  //push you change to reporitory
+delete:
+git rm your_change   //rm your change
+git commit -m "xxx"
+git push origin -u main
+
 General commands:
 Git remote: check reporitory linked to github
 Git remote -v : more info of reporitories
